@@ -11,14 +11,16 @@ echo.
 if exist inventory.xlsx (
     if exist nrs.xlsx (
         echo [31mERROR[0m: nrs.xlsx FILE FOUND
-	echo PLEASE REMOVE THE FILE AND TRY AGAIN
-	echo.
+	    echo PLEASE REMOVE THE FILE AND TRY AGAIN
+	    echo.
     ) else (
-	echo [32mGOOD[0m
-	echo BEGINNING TRANSFER
-	start /wait python %poo%
-	echo.
-	echo [32mTRANSFER COMPLETE[0m
+	    echo [32mGOOD[0m
+	    echo BEGINNING TRANSFER
+	    start /wait python %poo%
+	    echo.
+	    echo [32mTRANSFER COMPLETE[0m
+        echo REFRESH THE FOLDER IF YOU DO NOT SEE [36mnrs.xlsx[0m
+        echo.
     )
 ) else (
     echo [31mERROR[0m: FILE NOT FOUND
