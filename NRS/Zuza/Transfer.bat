@@ -17,8 +17,8 @@ if exist inventory.xlsm (
     ) else (
 	    echo [32mGOOD[0m
 	    echo BEGINNING TRANSFER... PLEASE WAIT UNTIL THE TRANSFER IS DONE
-	    start /wait python %poo%
 	    echo.
+	    start /wait python %poo%
 	    echo [32mTRANSFER COMPLETE[0m
         echo REFRESH THE FOLDER IF YOU DO NOT SEE [36mnrs.xlsx[0m
         echo.
